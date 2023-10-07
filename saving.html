@@ -1,0 +1,2416 @@
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr" prefix="content: http://purl.org/rss/1.0/modules/content/  dc: http://purl.org/dc/terms/  foaf: http://xmlns.com/foaf/0.1/  og: http://ogp.me/ns#  rdfs: http://www.w3.org/2000/01/rdf-schema#  schema: http://schema.org/  sioc: http://rdfs.org/sioc/ns#  sioct: http://rdfs.org/sioc/types#  skos: http://www.w3.org/2004/02/skos/core#  xsd: http://www.w3.org/2001/XMLSchema# ">
+  <head>
+    <meta charset="utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"249ea9cb86",applicationID:"659846010"};;/*! For license information please see nr-loader-rum-1.243.1.min.js.LICENSE.txt */
+(()=>{"use strict";var e,t,n={234:(e,t,n)=>{n.d(t,{P_:()=>h,Mt:()=>m,C5:()=>s,DL:()=>w,OP:()=>j,lF:()=>N,Yu:()=>_,Dg:()=>v,CX:()=>c,GE:()=>A,sU:()=>T});var r=n(8632),i=n(9567);const a={beacon:r.ce.beacon,errorBeacon:r.ce.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0},o={};function s(e){if(!e)throw new Error("All info objects require an agent identifier!");if(!o[e])throw new Error("Info for ".concat(e," was never set"));return o[e]}function c(e,t){if(!e)throw new Error("All info objects require an agent identifier!");o[e]=(0,i.D)(t,a),(0,r.Qy)(e,o[e],"info")}const d=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var u=n(7056),l=n(50);const f=()=>{const e={mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{proxy:{assets:void 0,beacon:void 0},privacy:{cookies_enabled:!0},ajax:{deny_list:void 0,block_internal:!0,enabled:!0,harvestTimeSeconds:10,autoStart:!0},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},session:{domain:void 0,expiresMs:u.oD,inactiveMs:u.Hb},ssl:void 0,obfuscate:void 0,jserrors:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},metrics:{enabled:!0,autoStart:!0},page_action:{enabled:!0,harvestTimeSeconds:30,autoStart:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,harvestTimeSeconds:30,long_task:!1,autoStart:!0},session_trace:{enabled:!0,harvestTimeSeconds:10,autoStart:!0},harvest:{tooManyRequestsDelay:60},session_replay:{autoStart:!0,enabled:!1,harvestTimeSeconds:60,sampling_rate:50,error_sampling_rate:50,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){d(t)?e.mask_selector=t+",[data-nr-mask]":null===t?e.mask_selector=t:(0,l.Z)("An invalid session_replay.mask_selector was provided and will not be used",t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){d(t)?e.block_selector+=",".concat(t):""!==t&&(0,l.Z)("An invalid session_replay.block_selector was provided and will not be used",t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,l.Z)("An invalid session_replay.mask_input_option was provided and will not be used",t)}},spa:{enabled:!0,harvestTimeSeconds:10,autoStart:!0}}},g={},p="All configuration objects require an agent identifier!";function h(e){if(!e)throw new Error(p);if(!g[e])throw new Error("Configuration for ".concat(e," was never set"));return g[e]}function v(e,t){if(!e)throw new Error(p);g[e]=(0,i.D)(t,f()),(0,r.Qy)(e,g[e],"config")}function m(e,t){if(!e)throw new Error(p);var n=h(e);if(n){for(var r=t.split("."),i=0;i<r.length-1;i++)if("object"!=typeof(n=n[r[i]]))return;n=n[r[r.length-1]]}return n}const b={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},y={};function w(e){if(!e)throw new Error("All loader-config objects require an agent identifier!");if(!y[e])throw new Error("LoaderConfig for ".concat(e," was never set"));return y[e]}function A(e,t){if(!e)throw new Error("All loader-config objects require an agent identifier!");y[e]=(0,i.D)(t,b),(0,r.Qy)(e,y[e],"loader_config")}const _=(0,r.mF)().o;var x=n(385),D=n(6818);const k={buildEnv:D.Re,customTransaction:void 0,disabled:!1,distMethod:D.gF,isolatedBacklog:!1,loaderType:void 0,maxBytes:3e4,offset:Math.floor(x._A?.performance?.timeOrigin||x._A?.performance?.timing?.navigationStart||Date.now()),onerror:void 0,origin:""+x._A.location,ptid:void 0,releaseIds:{},session:void 0,xhrWrappable:"function"==typeof x._A.XMLHttpRequest?.prototype?.addEventListener,version:D.q4,denyList:void 0},E={};function j(e){if(!e)throw new Error("All runtime objects require an agent identifier!");if(!E[e])throw new Error("Runtime for ".concat(e," was never set"));return E[e]}function T(e,t){if(!e)throw new Error("All runtime objects require an agent identifier!");E[e]=(0,i.D)(t,k),(0,r.Qy)(e,E[e],"runtime")}function N(e){return function(e){try{const t=s(e);return!!t.licenseKey&&!!t.errorBeacon&&!!t.applicationID}catch(e){return!1}}(e)}},9567:(e,t,n)=>{n.d(t,{D:()=>i});var r=n(50);function i(e,t){try{if(!e||"object"!=typeof e)return(0,r.Z)("Setting a Configurable requires an object as input");if(!t||"object"!=typeof t)return(0,r.Z)("Setting a Configurable requires a model to set its initial properties");const n=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(n).length?e:n;for(let o in a)if(void 0!==e[o])try{"object"==typeof e[o]&&"object"==typeof t[o]?n[o]=i(e[o],t[o]):n[o]=e[o]}catch(e){(0,r.Z)("An error occurred while setting a property of a Configurable",e)}return n}catch(e){(0,r.Z)("An error occured while setting a Configurable",e)}}},6818:(e,t,n)=>{n.d(t,{Re:()=>i,gF:()=>a,q4:()=>r});const r="1.243.1",i="PROD",a="CDN"},385:(e,t,n)=>{n.d(t,{Nk:()=>u,Tt:()=>s,_A:()=>a,cv:()=>l,iS:()=>o,il:()=>r,ux:()=>c,v6:()=>i,w1:()=>d});const r="undefined"!=typeof window&&!!window.document,i="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),a=r?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),o=Boolean("hidden"===a?.document?.visibilityState),s=(a?.location,/iPad|iPhone|iPod/.test(a.navigator?.userAgent)),c=s&&"undefined"==typeof SharedWorker,d=((()=>{const e=a.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Boolean(r&&window.document.documentMode)),u=!!a.navigator?.sendBeacon,l=Math.floor(a?.performance?.timeOrigin||a?.performance?.timing?.navigationStart||Date.now())},1117:(e,t,n)=>{n.d(t,{w:()=>a});var r=n(50);const i={agentIdentifier:"",ee:void 0};class a{constructor(e){try{if("object"!=typeof e)return(0,r.Z)("shared context requires an object as input");this.sharedContext={},Object.assign(this.sharedContext,i),Object.entries(e).forEach((e=>{let[t,n]=e;Object.keys(i).includes(t)&&(this.sharedContext[t]=n)}))}catch(e){(0,r.Z)("An error occured while setting SharedContext",e)}}}},8e3:(e,t,n)=>{n.d(t,{L:()=>u,R:()=>c});var r=n(8325),i=n(1284),a=n(4322),o=n(3325);const s={};function c(e,t){const n={staged:!1,priority:o.p[t]||0};d(e),s[e].get(t)||s[e].set(t,n)}function d(e){e&&(s[e]||(s[e]=new Map))}function u(){let e=arguments.length>0&&void 0!==arguments[0]?arguments[0]:"",t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:"feature";if(d(e),!e||!s[e].get(t))return o(t);s[e].get(t).staged=!0;const n=[...s[e]];function o(t){const n=e?r.ee.get(e):r.ee,o=a.X.handlers;if(n.backlog&&o){var s=n.backlog[t],c=o[t];if(c){for(var d=0;s&&d<s.length;++d)l(s[d],c);(0,i.D)(c,(function(e,t){(0,i.D)(t,(function(t,n){n[0].on(e,n[1])}))}))}delete o[t],n.backlog[t]=null,n.emit("drain-"+t,[])}}n.every((e=>{let[t,n]=e;return n.staged}))&&(n.sort(((e,t)=>e[1].priority-t[1].priority)),n.forEach((t=>{let[n]=t;s[e].delete(n),o(n)})))}function l(e,t){var n=e[1];(0,i.D)(t[n],(function(t,n){var r=e[0];if(n[0]===r){var i=n[1],a=e[3],o=e[2];i.apply(a,o)}}))}},8325:(e,t,n)=>{n.d(t,{A:()=>c,ee:()=>d});var r=n(8632),i=n(2210),a=n(234);class o{constructor(e){this.contextId=e}}var s=n(3117);const c="nr@context:".concat(s.a),d=function e(t,n){var r={},s={},u={},f=!1;try{f=16===n.length&&(0,a.OP)(n).isolatedBacklog}catch(e){}var g={on:h,addEventListener:h,removeEventListener:function(e,t){var n=r[e];if(!n)return;for(var i=0;i<n.length;i++)n[i]===t&&n.splice(i,1)},emit:function(e,n,r,i,a){!1!==a&&(a=!0);if(d.aborted&&!i)return;t&&a&&t.emit(e,n,r);for(var o=p(r),c=v(e),u=c.length,l=0;l<u;l++)c[l].apply(o,n);var f=b()[s[e]];f&&f.push([g,e,n,o]);return o},get:m,listeners:v,context:p,buffer:function(e,t){const n=b();if(t=t||"feature",g.aborted)return;Object.entries(e||{}).forEach((e=>{let[r,i]=e;s[i]=t,t in n||(n[t]=[])}))},abort:l,aborted:!1,isBuffering:function(e){return!!b()[s[e]]},debugId:n,backlog:f?{}:t&&"object"==typeof t.backlog?t.backlog:{}};return g;function p(e){return e&&e instanceof o?e:e?(0,i.X)(e,c,(()=>new o(c))):new o(c)}function h(e,t){r[e]=v(e).concat(t)}function v(e){return r[e]||[]}function m(t){return u[t]=u[t]||e(g,t)}function b(){return g.backlog}}(void 0,"globalEE"),u=(0,r.fP)();function l(){d.aborted=!0,d.backlog={}}u.ee||(u.ee=d)},5546:(e,t,n)=>{n.d(t,{E:()=>r,p:()=>i});var r=n(8325).ee.get("handle");function i(e,t,n,i,a){a?(a.buffer([e],i),a.emit(e,t,n)):(r.buffer([e],i),r.emit(e,t,n))}},4322:(e,t,n)=>{n.d(t,{X:()=>a});var r=n(5546);a.on=o;var i=a.handlers={};function a(e,t,n,a){o(a||r.E,i,e,t,n)}function o(e,t,n,i,a){a||(a="feature"),e||(e=r.E);var o=t[a]=t[a]||{};(o[n]=o[n]||[]).push([e,i])}},3239:(e,t,n)=>{n.d(t,{bP:()=>s,iz:()=>c,m$:()=>o});var r=n(385);let i=!1,a=!1;try{const e={get passive(){return i=!0,!1},get signal(){return a=!0,!1}};r._A.addEventListener("test",null,e),r._A.removeEventListener("test",null,e)}catch(e){}function o(e,t){return i||a?{capture:!!e,passive:i,signal:t}:!!e}function s(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;window.addEventListener(e,t,o(n,r))}function c(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2],r=arguments.length>3?arguments[3]:void 0;document.addEventListener(e,t,o(n,r))}},3117:(e,t,n)=>{n.d(t,{a:()=>r});const r=(0,n(4402).Rl)()},4402:(e,t,n)=>{n.d(t,{Rl:()=>o,ky:()=>s});var r=n(385);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=r._A?.crypto||r._A?.msCrypto;let t,n=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(31))),i.split("").map((e=>"x"===e?a(t,++n).toString(16):"y"===e?(3&a()|8).toString(16):e)).join("")}function s(e){const t=r._A?.crypto||r._A?.msCrypto;let n,i=0;t&&t.getRandomValues&&(n=t.getRandomValues(new Uint8Array(31)));const o=[];for(var s=0;s<e;s++)o.push(a(n,++i).toString(16));return o.join("")}},7056:(e,t,n)=>{n.d(t,{Bq:()=>r,Hb:()=>a,oD:()=>i});const r="NRBA",i=144e5,a=18e5},7894:(e,t,n)=>{function r(){return Math.round(performance.now())}n.d(t,{z:()=>r})},50:(e,t,n)=>{function r(e,t){"function"==typeof console.warn&&(console.warn("New Relic: ".concat(e)),t&&console.warn(t))}n.d(t,{Z:()=>r})},2587:(e,t,n)=>{n.d(t,{N:()=>c,T:()=>d});var r=n(8325),i=n(5546),a=n(3325);const o={stn:[a.D.sessionTrace],err:[a.D.jserrors,a.D.metrics],ins:[a.D.pageAction],spa:[a.D.spa],sr:[a.D.sessionReplay,a.D.sessionTrace]},s=new Set;function c(e,t){const n=r.ee.get(t);e&&"object"==typeof e&&(s.has(t)||Object.entries(e).forEach((e=>{let[t,r]=e;o[t]?o[t].forEach((e=>{r?(0,i.p)("feat-"+t,[],void 0,e,n):(0,i.p)("block-"+t,[],void 0,e,n),(0,i.p)("rumresp-"+t,[Boolean(r)],void 0,e,n)})):r&&(0,i.p)("feat-"+t,[],void 0,void 0,n),d[t]=Boolean(r)})),Object.keys(o).forEach((e=>{void 0===d[e]&&(o[e]?.forEach((t=>(0,i.p)("rumresp-"+e,[!1],void 0,t,n))),d[e]=!1)})),s.add(t))}const d={}},2210:(e,t,n)=>{n.d(t,{X:()=>i});var r=Object.prototype.hasOwnProperty;function i(e,t,n){if(r.call(e,t))return e[t];var i=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}},1284:(e,t,n)=>{n.d(t,{D:()=>r});const r=(e,t)=>Object.entries(e||{}).map((e=>{let[n,r]=e;return t(n,r)}))},4351:(e,t,n)=>{n.d(t,{P:()=>a});var r=n(8325);const i=()=>{const e=new WeakSet;return(t,n)=>{if("object"==typeof n&&null!==n){if(e.has(n))return;e.add(n)}return n}};function a(e){try{return JSON.stringify(e,i())}catch(e){try{r.ee.emit("internal-error",[e])}catch(e){}}}},3960:(e,t,n)=>{n.d(t,{K:()=>o,b:()=>a});var r=n(3239);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,r.bP)("load",e,t)}function o(e){if(i())return e();(0,r.iz)("DOMContentLoaded",e)}},8632:(e,t,n)=>{n.d(t,{EZ:()=>d,Qy:()=>c,ce:()=>a,fP:()=>o,gG:()=>u,mF:()=>s});var r=n(7894),i=n(385);const a={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function o(){return i._A.NREUM||(i._A.NREUM={}),void 0===i._A.newrelic&&(i._A.newrelic=i._A.NREUM),i._A.NREUM}function s(){let e=o();return e.o||(e.o={ST:i._A.setTimeout,SI:i._A.setImmediate,CT:i._A.clearTimeout,XHR:i._A.XMLHttpRequest,REQ:i._A.Request,EV:i._A.Event,PR:i._A.Promise,MO:i._A.MutationObserver,FETCH:i._A.fetch}),e}function c(e,t,n){let i=o();const a=i.initializedAgents||{},s=a[e]||{};return Object.keys(s).length||(s.initializedAt={ms:(0,r.z)(),date:new Date}),i.initializedAgents={...a,[e]:{...s,[n]:t}},i}function d(e,t){o()[e]=t}function u(){return function(){let e=o();const t=e.info||{};e.info={beacon:a.beacon,errorBeacon:a.errorBeacon,...t}}(),function(){let e=o();const t=e.init||{};e.init={...t}}(),s(),function(){let e=o();const t=e.loader_config||{};e.loader_config={...t}}(),o()}},7956:(e,t,n)=>{n.d(t,{N:()=>i});var r=n(3239);function i(e){let t=arguments.length>1&&void 0!==arguments[1]&&arguments[1],n=arguments.length>2?arguments[2]:void 0,i=arguments.length>3?arguments[3]:void 0;(0,r.iz)("visibilitychange",(function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)}),n,i)}},3081:(e,t,n)=>{n.d(t,{gF:()=>a,mY:()=>i,t9:()=>r,vz:()=>s,xS:()=>o});const r=n(3325).D.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},7633:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewEvent},9251:(e,t,n)=>{n.d(t,{t:()=>r});const r=n(3325).D.pageViewTiming},5938:(e,t,n)=>{n.d(t,{W:()=>i});var r=n(8325);class i{constructor(e,t,n){this.agentIdentifier=e,this.aggregator=t,this.ee=r.ee.get(e),this.featureName=n,this.blocked=!1}}},7530:(e,t,n)=>{n.d(t,{j:()=>b});var r=n(3325),i=n(234),a=n(5546),o=n(8325),s=n(7894),c=n(8e3),d=n(3960),u=n(385),l=n(50),f=n(3081),g=n(8632);function p(){const e=(0,g.gG)();["setErrorHandler","finished","addToTrace","addRelease","addPageAction","setCurrentRouteName","setPageViewName","setCustomAttribute","interaction","noticeError","setUserId","setApplicationVersion","start"].forEach((t=>{e[t]=function(){for(var n=arguments.length,r=new Array(n),i=0;i<n;i++)r[i]=arguments[i];return function(t){for(var n=arguments.length,r=new Array(n>1?n-1:0),i=1;i<n;i++)r[i-1]=arguments[i];let a=[];return Object.values(e.initializedAgents).forEach((e=>{e.exposed&&e.api[t]&&a.push(e.api[t](...r))})),a.length>1?a:a[0]}(t,...r)}}))}var h=n(2587);const v=e=>{const t=e.startsWith("http");e+="/",n.p=t?e:"https://"+e};let m=!1;function b(e){let t=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{},b=arguments.length>2?arguments[2]:void 0,y=arguments.length>3?arguments[3]:void 0,{init:w,info:A,loader_config:_,runtime:x={loaderType:b},exposed:D=!0}=t;const k=(0,g.gG)();A||(w=k.init,A=k.info,_=k.loader_config),(0,i.Dg)(e,w||{}),(0,i.GE)(e,_||{}),A.jsAttributes??={},u.v6&&(A.jsAttributes.isWorker=!0),(0,i.CX)(e,A);const E=(0,i.P_)(e),j=[A.beacon,A.errorBeacon];m||(m=!0,E.proxy.assets&&(v(E.proxy.assets),j.push(E.proxy.assets)),E.proxy.beacon&&j.push(E.proxy.beacon)),x.denyList=[...E.ajax.deny_list||[],...E.ajax.block_internal?j:[]],(0,i.sU)(e,x),p();const T=function(e,t){t||(0,c.R)(e,"api");const g={};var p=o.ee.get(e),h=p.get("tracer"),v="api-",m=v+"ixn-";function b(t,n,r,a){const o=(0,i.C5)(e);return null===n?delete o.jsAttributes[t]:(0,i.CX)(e,{...o,jsAttributes:{...o.jsAttributes,[t]:n}}),A(v,r,!0,a||null===n?"session":void 0)(t,n)}function y(){}["setErrorHandler","finished","addToTrace","addRelease"].forEach((e=>{g[e]=A(v,e,!0,"api")})),g.addPageAction=A(v,"addPageAction",!0,r.D.pageAction),g.setCurrentRouteName=A(v,"routeName",!0,r.D.spa),g.setPageViewName=function(t,n){if("string"==typeof t)return"/"!==t.charAt(0)&&(t="/"+t),(0,i.OP)(e).customTransaction=(n||"http://custom.transaction")+t,A(v,"setPageViewName",!0)()},g.setCustomAttribute=function(e,t){let n=arguments.length>2&&void 0!==arguments[2]&&arguments[2];if("string"==typeof e){if(["string","number"].includes(typeof t)||null===t)return b(e,t,"setCustomAttribute",n);(0,l.Z)("Failed to execute setCustomAttribute.\nNon-null value must be a string or number type, but a type of <".concat(typeof t,"> was provided."))}else(0,l.Z)("Failed to execute setCustomAttribute.\nName must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setUserId=function(e){if("string"==typeof e||null===e)return b("enduser.id",e,"setUserId",!0);(0,l.Z)("Failed to execute setUserId.\nNon-null value must be a string type, but a type of <".concat(typeof e,"> was provided."))},g.setApplicationVersion=function(e){if("string"==typeof e||null===e)return b("application.version",e,"setApplicationVersion",!1);(0,l.Z)("Failed to execute setApplicationVersion. Expected <String | null>, but got <".concat(typeof e,">."))},g.start=e=>{try{const t=e?"defined":"undefined";(0,a.p)(f.xS,["API/start/".concat(t,"/called")],void 0,r.D.metrics,p);const n=Object.values(r.D);if(void 0===e)e=n;else{if((e=Array.isArray(e)&&e.length?e:[e]).some((e=>!n.includes(e))))return(0,l.Z)("Invalid feature name supplied. Acceptable feature names are: ".concat(n));e.includes(r.D.pageViewEvent)||e.push(r.D.pageViewEvent)}e.forEach((e=>{p.emit("".concat(e,"-opt-in"))}))}catch(e){(0,l.Z)("An unexpected issue occurred",e)}},g.interaction=function(){return(new y).get()};var w=y.prototype={createTracer:function(e,t){var n={},i=this,o="function"==typeof t;return(0,a.p)(m+"tracer",[(0,s.z)(),e,n],i,r.D.spa,p),function(){if(h.emit((o?"":"no-")+"fn-start",[(0,s.z)(),i,o],n),o)try{return t.apply(this,arguments)}catch(e){throw h.emit("fn-err",[arguments,this,e],n),e}finally{h.emit("fn-end",[(0,s.z)()],n)}}}};function A(e,t,n,i){return function(){return(0,a.p)(f.xS,["API/"+t+"/called"],void 0,r.D.metrics,p),i&&(0,a.p)(e+t,[(0,s.z)(),...arguments],n?null:this,i,p),n?void 0:this}}function _(){n.e(75).then(n.bind(n,7438)).then((t=>{let{setAPI:n}=t;n(e),(0,c.L)(e,"api")})).catch((()=>(0,l.Z)("Downloading runtime APIs failed...")))}return["actionText","setName","setAttribute","save","ignore","onEnd","getContext","end","get"].forEach((e=>{w[e]=A(m,e,void 0,r.D.spa)})),g.noticeError=function(e,t){"string"==typeof e&&(e=new Error(e)),(0,a.p)(f.xS,["API/noticeError/called"],void 0,r.D.metrics,p),(0,a.p)("err",[e,(0,s.z)(),!1,t],void 0,r.D.jserrors,p)},u.il?(0,d.b)((()=>_()),!0):_(),g}(e,y);return(0,g.Qy)(e,T,"api"),(0,g.Qy)(e,D,"exposed"),(0,g.EZ)("activatedFeatures",h.T),T}},3325:(e,t,n)=>{n.d(t,{D:()=>r,p:()=>i});const r={ajax:"ajax",jserrors:"jserrors",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",spa:"spa"},i={[r.pageViewEvent]:1,[r.pageViewTiming]:2,[r.metrics]:3,[r.jserrors]:4,[r.ajax]:5,[r.sessionTrace]:6,[r.pageAction]:7,[r.spa]:8,[r.sessionReplay]:9}}},r={};function i(e){var t=r[e];if(void 0!==t)return t.exports;var a=r[e]={exports:{}};return n[e](a,a.exports,i),a.exports}i.m=n,i.d=(e,t)=>{for(var n in t)i.o(t,n)&&!i.o(e,n)&&Object.defineProperty(e,n,{enumerable:!0,get:t[n]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce(((t,n)=>(i.f[n](e,t),t)),[])),i.u=e=>"nr-rum-1.243.1.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.243.1.PROD:",i.l=(n,r,a,o)=>{if(e[n])e[n].push(r);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==n||l.getAttribute("data-webpack")==t+a){s=l;break}}s||(c=!0,(s=document.createElement("script")).charset="utf-8",s.timeout=120,i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=n),e[n]=[r];var f=(t,r)=>{s.onerror=s.onload=null,clearTimeout(g);var i=e[n];if(delete e[n],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach((e=>e(r))),t)return t(r)},g=setTimeout(f.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=f.bind(null,s.onerror),s.onload=f.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={50:0,832:0};i.f.j=(t,n)=>{var r=i.o(e,t)?e[t]:void 0;if(0!==r)if(r)n.push(r[2]);else{var a=new Promise(((n,i)=>r=e[t]=[n,i]));n.push(r[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,(n=>{if(i.o(e,t)&&(0!==(r=e[t])&&(e[t]=void 0),r)){var a=n&&("load"===n.type?"missing":n.type),o=n&&n.target&&n.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,r[1](s)}}),"chunk-"+t,t)}};var t=(t,n)=>{var r,a,[o,s,c]=n,d=0;if(o.some((t=>0!==e[t]))){for(r in s)i.o(s,r)&&(i.m[r]=s[r]);if(c)c(i)}for(t&&t(n);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},n=self["webpackChunk:NRBA-1.243.1.PROD"]=self["webpackChunk:NRBA-1.243.1.PROD"]||[];n.forEach(t.bind(null,0)),n.push=t.bind(null,n.push.bind(n))})(),(()=>{var e=i(50);class t{addPageAction(t,n){(0,e.Z)("Call to agent api addPageAction failed. The session trace feature is not currently initialized.")}setPageViewName(t,n){(0,e.Z)("Call to agent api setPageViewName failed. The page view feature is not currently initialized.")}setCustomAttribute(t,n,r){(0,e.Z)("Call to agent api setCustomAttribute failed. The js errors feature is not currently initialized.")}noticeError(t,n){(0,e.Z)("Call to agent api noticeError failed. The js errors feature is not currently initialized.")}setUserId(t){(0,e.Z)("Call to agent api setUserId failed. The js errors feature is not currently initialized.")}setApplicationVersion(t){(0,e.Z)("Call to agent api setApplicationVersion failed. The agent is not currently initialized.")}setErrorHandler(t){(0,e.Z)("Call to agent api setErrorHandler failed. The js errors feature is not currently initialized.")}finished(t){(0,e.Z)("Call to agent api finished failed. The page action feature is not currently initialized.")}addRelease(t,n){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}start(t){(0,e.Z)("Call to agent api addRelease failed. The agent is not currently initialized.")}}var n=i(3325),r=i(234);const a=Object.values(n.D);function o(e){const t={};return a.forEach((n=>{t[n]=function(e,t){return!1!==(0,r.Mt)(t,"".concat(e,".enabled"))}(n,e)})),t}var s=i(7530);var c=i(8e3),d=i(5938),u=i(3960),l=i(385);class f extends d.W{constructor(e,t,n){let i=!(arguments.length>3&&void 0!==arguments[3])||arguments[3];super(e,t,n),this.auto=i,this.abortHandler=void 0,this.featAggregate=void 0,this.onAggregateImported=void 0,!1===(0,r.Mt)(this.agentIdentifier,"".concat(this.featureName,".autoStart"))&&(this.auto=!1),this.auto&&(0,c.R)(e,n)}importAggregator(){let t=arguments.length>0&&void 0!==arguments[0]?arguments[0]:{};if(this.featAggregate)return;if(!this.auto)return void this.ee.on("".concat(this.featureName,"-opt-in"),(()=>{(0,c.R)(this.agentIdentifier,this.featureName),this.auto=!0,this.importAggregator()}));const n=l.il&&!0===(0,r.Mt)(this.agentIdentifier,"privacy.cookies_enabled");let a;this.onAggregateImported=new Promise((e=>{a=e}));const o=async()=>{let r;try{if(n){const{setupAgentSession:e}=await i.e(75).then(i.bind(i,3228));r=e(this.agentIdentifier)}}catch(t){(0,e.Z)("A problem occurred when starting up session manager. This page will not start or extend any session.",t)}try{if(!this.shouldImportAgg(this.featureName,r))return(0,c.L)(this.agentIdentifier,this.featureName),void a(!1);const{lazyFeatureLoader:e}=await i.e(75).then(i.bind(i,8582)),{Aggregate:n}=await e(this.featureName,"aggregate");this.featAggregate=new n(this.agentIdentifier,this.aggregator,t),a(!0)}catch(t){(0,e.Z)("Downloading and initializing ".concat(this.featureName," failed..."),t),this.abortHandler?.(),(0,c.L)(this.agentIdentifier,this.featureName),a(!1)}};l.il?(0,u.b)((()=>o()),!0):o()}shouldImportAgg(e,t){return e!==n.D.sessionReplay||!!r.Yu.MO&&(!1!==(0,r.Mt)(this.agentIdentifier,"session_trace.enabled")&&(!!t?.isNew||!!t?.state.sessionReplay))}}var g=i(7633);class p extends f{static featureName=g.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,g.t,n),this.importAggregator()}}var h=i(1117),v=i(1284);class m extends h.w{constructor(e){super(e),this.aggregatedData={}}store(e,t,n,r,i){var a=this.getBucket(e,t,n,i);return a.metrics=function(e,t){t||(t={count:0});return t.count+=1,(0,v.D)(e,(function(e,n){t[e]=b(n,t[e])})),t}(r,a.metrics),a}merge(e,t,n,r,i){var a=this.getBucket(e,t,r,i);if(a.metrics){var o=a.metrics;o.count+=n.count,(0,v.D)(n,(function(e,t){if("count"!==e){var r=o[e],i=n[e];i&&!i.c?o[e]=b(i.t,r):o[e]=function(e,t){if(!t)return e;t.c||(t=y(t.t));return t.min=Math.min(e.min,t.min),t.max=Math.max(e.max,t.max),t.t+=e.t,t.sos+=e.sos,t.c+=e.c,t}(i,o[e])}}))}else a.metrics=n}storeMetric(e,t,n,r){var i=this.getBucket(e,t,n);return i.stats=b(r,i.stats),i}getBucket(e,t,n,r){this.aggregatedData[e]||(this.aggregatedData[e]={});var i=this.aggregatedData[e][t];return i||(i=this.aggregatedData[e][t]={params:n||{}},r&&(i.custom=r)),i}get(e,t){return t?this.aggregatedData[e]&&this.aggregatedData[e][t]:this.aggregatedData[e]}take(e){for(var t={},n="",r=!1,i=0;i<e.length;i++)t[n=e[i]]=w(this.aggregatedData[n]),t[n].length&&(r=!0),delete this.aggregatedData[n];return r?t:null}}function b(e,t){return null==e?function(e){e?e.c++:e={c:1};return e}(t):t?(t.c||(t=y(t.t)),t.c+=1,t.t+=e,t.sos+=e*e,e>t.max&&(t.max=e),e<t.min&&(t.min=e),t):{t:e}}function y(e){return{t:e,min:e,max:e,sos:e*e,c:1}}function w(e){return"object"!=typeof e?[]:(0,v.D)(e,A)}function A(e,t){return t}var _=i(8632),x=i(4402),D=i(4351);var k=i(5546),E=i(7956),j=i(3239),T=i(7894),N=i(9251);class S extends f{static featureName=N.t;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,N.t,n),l.il&&((0,E.N)((()=>(0,k.p)("docHidden",[(0,T.z)()],void 0,N.t,this.ee)),!0),(0,j.bP)("pagehide",(()=>(0,k.p)("winPagehide",[(0,T.z)()],void 0,N.t,this.ee))),this.importAggregator())}}var C=i(3081);class P extends f{static featureName=C.t9;constructor(e,t){let n=!(arguments.length>2&&void 0!==arguments[2])||arguments[2];super(e,t,C.t9,n),this.importAggregator()}}new class extends t{constructor(t){let n=arguments.length>1&&void 0!==arguments[1]?arguments[1]:(0,x.ky)(16);super(),l._A?(this.agentIdentifier=n,this.sharedAggregator=new m({agentIdentifier:this.agentIdentifier}),this.features={},this.desiredFeatures=new Set(t.features||[]),this.desiredFeatures.add(p),Object.assign(this,(0,s.j)(this.agentIdentifier,t,t.loaderType||"agent")),this.run()):(0,e.Z)("Failed to initial the agent. Could not determine the runtime environment.")}get config(){return{info:(0,r.C5)(this.agentIdentifier),init:(0,r.P_)(this.agentIdentifier),loader_config:(0,r.DL)(this.agentIdentifier),runtime:(0,r.OP)(this.agentIdentifier)}}run(){const t="features";try{const r=o(this.agentIdentifier),i=[...this.desiredFeatures];i.sort(((e,t)=>n.p[e.featureName]-n.p[t.featureName])),i.forEach((t=>{if(r[t.featureName]||t.featureName===n.D.pageViewEvent){const i=function(e){switch(e){case n.D.ajax:return[n.D.jserrors];case n.D.sessionTrace:return[n.D.ajax,n.D.pageViewEvent];case n.D.sessionReplay:return[n.D.sessionTrace];case n.D.pageViewTiming:return[n.D.pageViewEvent];default:return[]}}(t.featureName);i.every((e=>r[e]))||(0,e.Z)("".concat(t.featureName," is enabled but one or more dependent features has been disabled (").concat((0,D.P)(i),"). This may cause unintended consequences or missing data...")),this.features[t.featureName]=new t(this.agentIdentifier,this.sharedAggregator)}})),(0,_.Qy)(this.agentIdentifier,this.features,t)}catch(n){(0,e.Z)("Failed to initialize all enabled instrument classes (agent aborted) -",n);for(const e in this.features)this.features[e].abortHandler?.();const r=(0,_.fP)();return delete r.initializedAgents[this.agentIdentifier]?.api,delete r.initializedAgents[this.agentIdentifier]?.[t],delete this.sharedAggregator,r.ee?.abort(),delete r.ee?.get(this.agentIdentifier),!1}}addToTrace(t){(0,e.Z)("Call to agent api addToTrace failed. The page action feature is not currently initialized.")}setCurrentRouteName(t){(0,e.Z)("Call to agent api setCurrentRouteName failed. The spa feature is not currently initialized.")}interaction(){(0,e.Z)("Call to agent api interaction failed. The spa feature is not currently initialized.")}}({features:[p,S,P],loaderType:"lite"})})()})();</script>
+<style>/* @see https://github.com/aFarkas/lazysizes#broken-image-symbol */.js img.dam-image:not([src]) { visibility: hidden; }/* @see https://github.com/aFarkas/lazysizes#automatically-setting-the-sizes-attribute */.js img.lazyloaded[data-sizes=auto] { display: block; width: 100%; }/* Transition effect. */.js .dam-image, .js .lazyloading { opacity: 0; }.js .lazyloaded { opacity: 1; -webkit-transition: opacity 2000ms; transition: opacity 2000ms; }</style>
+<meta property="og:image" content="https://www.fisheries.noaa.gov/themes/custom/noaa_components/images/open-graph.jpg" />
+<meta name="dcterms.title" content="Species Directory | NOAA Fisheries" />
+<meta name="dcterms.creator" content="NOAA Fisheries" />
+<meta name="dcterms.contributor" content="Office of Communications" />
+<meta name="dcterms.language" content="EN-US" />
+<meta name="dcterms.coverage" content="National" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:creator" content="@NOAAFisheries" />
+<meta name="twitter:image" content="https://www.fisheries.noaa.gov/themes/custom/noaa_components/images/open-graph.jpg" />
+<meta name="Generator" content="Drupal 10 (https://www.drupal.org)" />
+<meta name="MobileOptimized" content="width" />
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<script type="text/javascript" data-toolbar-anti-flicker-loading>(function() {
+  const toolbarState = sessionStorage.getItem('Drupal.toolbar.toolbarState')
+    ? JSON.parse(sessionStorage.getItem('Drupal.toolbar.toolbarState'))
+    : false;
+  // These are classes that toolbar typically adds to <body>, but this code
+  // executes before the first paint, when <body> is not yet present. The
+  // classes are added to <html> so styling immediately reflects the current
+  // toolbar state. The classes are removed after the toolbar completes
+  // initialization.
+  const classesToAdd = ['toolbar-loading', 'toolbar-anti-flicker'];
+  if (toolbarState) {
+    const {
+      orientation,
+      hasActiveTab,
+      isFixed,
+      activeTray,
+      activeTabId,
+      isOriented,
+      userButtonMinWidth
+    } = toolbarState;
+
+    classesToAdd.push(
+      orientation ? `toolbar-` + orientation + `` : 'toolbar-horizontal',
+    );
+    if (hasActiveTab !== false) {
+      classesToAdd.push('toolbar-tray-open');
+    }
+    if (isFixed) {
+      classesToAdd.push('toolbar-fixed');
+    }
+    if (isOriented) {
+      classesToAdd.push('toolbar-oriented');
+    }
+
+    if (activeTray) {
+      // These styles are added so the active tab/tray styles are present
+      // immediately instead of "flickering" on as the toolbar initializes. In
+      // instances where a tray is lazy loaded, these styles facilitate the
+      // lazy loaded tray appearing gracefully and without reflow.
+      const styleContent = `
+      .toolbar-loading #` + activeTabId + ` {
+        background-image: linear-gradient(rgba(255, 255, 255, 0.25) 20%, transparent 200%);
+      }
+      .toolbar-loading #` + activeTabId + `-tray {
+        display: block; box-shadow: -1px 0 5px 2px rgb(0 0 0 / 33%);
+        border-right: 1px solid #aaa; background-color: #f5f5f5;
+        z-index: 0;
+      }
+      .toolbar-loading.toolbar-vertical.toolbar-tray-open #` + activeTabId + `-tray {
+        width: 15rem; height: 100vh;
+      }
+     .toolbar-loading.toolbar-horizontal :not(#` + activeTray + `) > .toolbar-lining {opacity: 0}`;
+
+      const style = document.createElement('style');
+      style.textContent = styleContent;
+      style.setAttribute('data-toolbar-anti-flicker-loading', true);
+      document.querySelector('head').appendChild(style);
+
+      if (userButtonMinWidth) {
+        const userButtonStyle = document.createElement('style');
+        userButtonStyle.textContent = `#toolbar-item-user {min-width: ` + userButtonMinWidth +`px;}`
+        document.querySelector('head').appendChild(userButtonStyle);
+      }
+    }
+  }
+  document.querySelector('html').classList.add(...classesToAdd);
+})();</script>
+<link rel="icon" href="/themes/custom/noaa_components/favicon.ico" type="image/vnd.microsoft.icon" />
+<script>window.a2a_config=window.a2a_config||{};a2a_config.callbacks=[];a2a_config.overlays=[];a2a_config.templates={};</script>
+
+    <title>Species Directory | NOAA Fisheries</title>
+    <link rel="stylesheet" media="all" href="/core/modules/system/css/components/align.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/fieldgroup.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/container-inline.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/clearfix.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/details.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/hidden.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/item-list.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/js.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/nowrap.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/position-container.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/progress.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/reset-appearance.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/resize.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/sticky-header.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-counter.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-counters.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/system-status-report-general-info.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tablesort.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/system/css/components/tree-child.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/core/modules/views/css/views.module.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/modules/contrib/addtoany/css/addtoany.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/modules/contrib/extlink/extlink.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="/themes/custom/noaa_components/dest/style.css?s1x3ue" />
+<link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      </head>
+  <body>
+        <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M67WBF"
+                  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+      <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas>
+    
+<header role="banner">
+    <div class="region region-header">
+    <nav aria-label="block-noaamegamenu-menu" id="block-noaamegamenu">
+      
+  
+ 
+  
+
+        
+
+
+
+
+<header class="site-header">
+  <div class="site-header__top">
+    <div class="site-header__top-bar--wrapper">
+      <div class="container">
+        <div class="site-header__top-bar">
+          <div class="site-header__top-bar-links--left">
+                          <a class="link--darkergray" href="https://www.noaa.gov">NATIONAL OCEANIC AND ATMOSPHERIC ADMINISTRATION</a> | 
+                          <a class="link--darkergray" href="https://www.commerce.gov/">U.S. DEPARTMENT OF COMMERCE</a>
+                      </div>
+          <div class="site-header__top-bar-social">
+            <nav class="site-header__social">
+                              <a class="site-header__social-icon fab fa-facebook-f" href="https://www.facebook.com/NOAAFisheries"><span class="sr-only">Facebook</span></a>
+                              <a class="site-header__social-icon fab fa-instagram" href="https://www.instagram.com/noaafisheries"><span class="sr-only">Instagram</span></a>
+                              <a class="site-header__social-icon fab fa-twitter" href="https://twitter.com/NOAAFisheries"><span class="sr-only">Twitter</span></a>
+                              <a class="site-header__social-icon fab fa-youtube" href="https://www.youtube.com/user/usnoaafisheriesgov"><span class="sr-only">YouTube</span></a>
+                              <a class="site-header__social-icon fa fa-envelope" href="https://public.govdelivery.com/accounts/USNOAAFISHERIES/subscriber/new"><span class="sr-only">Mail</span></a> | 
+                          </nav>
+          </div>
+          <div class="site-header__top-bar-links--right">
+                          <div>
+                <a class="link--darkergray" href="/site-index">SITE INDEX</a>   
+              </div>
+                          <div>
+                <a class="link--darkergray" href="/contact-us">CONTACT US</a>
+              </div>
+                      </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          
+<div id="block-promobanner">
+  
+  
+  
+  <div class="promo-banner">
+    <a class="promo-banner__icon fa fa-times" href="#"><span class="sr-only">Close Promo Banner</span></a>
+    
+        
+      <a class="promo-banner__link" href="https://www.fisheries.noaa.gov/feature-story/celebrate-national-seafood-month">
+        <div class="promo-banner__image hidden-xs">
+          <img class="webdam-field-asset" src="https://media.fisheries.noaa.gov/2022-09/NOAA_National-Seafood-Month-2022_Web.png" alt="National Seafood Month collage of seafood including fish, lobster, oysters, and crab" typeof="foaf:Image">
+        </div>
+
+        <div class="promo-banner__image hidden-sm hidden-md hidden-lg">
+          <img class="webdam-field-asset" src="https://media.fisheries.noaa.gov/2022-09/NOAA_National-Seafood-Month-2022_Mobile.png" alt="National Seafood Month collage of seafood including fish, lobster, oysters, and crab" typeof="foaf:Image">
+        </div>
+      </a>
+  
+      </div>
+</div>
+          
+<div id="block-seafoodpromo">
+  
+  
+  
+  <div class="promo-banner">
+    <a class="promo-banner__icon fa fa-times" href="#"><span class="sr-only">Close Promo Banner</span></a>
+    
+        
+      <div class="promo-banner__image hidden-xs">
+        <img class="webdam-field-asset" src="https://media.fisheries.noaa.gov/2023-03/FishWatch_Banner_Desktop_final.png" alt="Welcome to the new home for FishWatch information!" typeof="foaf:Image">
+      </div>
+
+      <div class="promo-banner__image hidden-sm hidden-md hidden-lg">
+        <img class="webdam-field-asset" src="https://media.fisheries.noaa.gov/2023-03/FishWatch_Banner_Mobile.png" alt="Welcome to the new home for FishWatch information!" typeof="foaf:Image">
+      </div>
+
+      </div>
+</div>
+         </div>
+      </div>
+
+      <div class="row">
+        <div class="site-header__branding col-lg-6 col-md-5 col-sm-8 col-xs-8">
+                      <div class="site-header__label">
+              <a href="/" title="Home" class="site-header__label-image-link">
+                <img class="site-header__logo-text" src="/themes/custom/noaa_components/images/NOAA_FISHERIES_logoH.png" alt="NOAA Fisheries emblem">
+              </a>
+              <br>
+            </div>
+                  </div>
+
+        <div class="col-lg-6 col-md-7 col-sm-6 hidden-sm hidden-xs">
+          <form id="input-search-form_header-search" class="input-search" action="/search" method="GET">
+  
+  <label for="header-search" class="sr-only">Search NOAA Fisheries</label>
+  <input type="search" id="header-search" name="oq" placeholder="Search NOAA Fisheries">
+
+      <button type="submit" class="fa fa-search input-search__button"><span class="sr-only">Search</span></button>
+  </form>
+        </div>
+
+        <nav class="col-sm-4 col-xs-4 hidden-lg hidden-md site-header__menu">
+          <a class="site-header__menu-link" href="#" role="button" aria-haspopup="true" aria-expanded="false"><span class="site-header__menu-icon fa fa-bars"></span>Menu</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+
+  <div class="site-header__main hidden-sm hidden-xs">
+    <div class="container">
+          
+      <nav class="main-menu">
+          <ul class="main-menu__items"> 
+                           
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >Find A Species</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-1">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/find-species">Find a Species</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/dolphins-porpoises">Dolphins &amp; Porpoises</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/fish-sharks">Fish &amp; Sharks</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/highly-migratory-species">Highly Migratory Species</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/invertebrates">Invertebrates</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/sea-turtles">Sea Turtles</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/seals-sea-lions">Seals &amp; Sea Lions</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/whales">Whales</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Protected Species</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory/threatened-endangered">All Threatened &amp; Endangered Species</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory/marine-mammals">Marine Mammals</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Species By Region</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001106&amp;items_per_page=25">Alaska</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001111&amp;items_per_page=25">New England/Mid-Atlantic</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001116&amp;items_per_page=25">Pacific Islands</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001121&amp;items_per_page=25">Southeast</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001126&amp;items_per_page=25">West Coast</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Helpful Resources</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/marine-life-viewing-guidelines#guidelines-&amp;-distances">Marine Life Viewing Guidelines</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/marine-life-distress">Marine Life in Distress</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/report">Report a Stranded or Injured Marine Animal</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/endangered-species-conservation/species-in-the-spotlight">Species in the Spotlight</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+                         
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >Fishing &amp; Seafood</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-2">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/sustainable-fisheries">Sustainable Fisheries</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/bycatch">Bycatch</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/laws-and-policies/catch-shares">Catch Shares</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/fishery-observers">Fishery Observers</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/international-affairs/iuu-fishing">Illegal, Unregulated, Unreported Fishing</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/magnuson-stevens-act">Magnuson-Stevens Act</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/science-data/research-surveys">Research Surveys</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/population-assessments">Population Assessments</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/resources-fishing">Resources for Fishing</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/resources-fishing/commercial-fishing">Commercial Fishing</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/resources-fishing/recreational-fishing">Recreational Fishing</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/resources-fishing/subsistence-fishing">Subsistence Fishing</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/rules-and-announcements/notices-and-rules">Fishery Management Info</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/permits-and-forms">Permits &amp; Forms</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/rules-and-regulations">Rules &amp; Regulations by Region</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/sustainable-seafood">Sustainable Seafood</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/sustainable-seafood/seafood-profiles">Seafood Profiles</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/aquaculture">Aquaculture</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/seafood-commerce-and-trade">Commerce &amp; Trade</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/seafood-commerce-and-trade/seafood-inspection">Seafood Inspection</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Related Topics</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/atlantic-highly-migratory-species">Atlantic Highly Migratory Species </a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/offshore-wind-energy">Offshore Wind Energy</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/sustainable-fisheries/national-cooperative-research-program">Cooperative Research</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/enforcement">Enforcement</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/funding-opportunities#financial-services">Financial Services</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/international-affairs">International Affairs</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/science-and-data">Science &amp; Data</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/socioeconomics">Socioeconomics</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+                         
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >Protecting Marine Life</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-3">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/endangered-species-conservation">Endangered Species Conservation</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/endangered-species-conservation/listing-species-under-endangered-species-act">Listing Species Under ESA</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/endangered-species-conservation/critical-habitat">Critical Habitat</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/consultations/endangered-species-act-consultations">Consultations</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/endangered-species-conservation/recovery-species-under-endangered-species-act">Species Recovery</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/science-data/research-surveys">Research Surveys</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/endangered-species-conservation/species-in-the-spotlight">Species in the Spotlight</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/endangered-species-act">Endangered Species Act</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/marine-mammal-protection">Marine Mammal Protection</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/marine-life-distress/marine-mammal-health-and-stranding-response-program">Health &amp; Stranding Response</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/marine-mammal-protection-act">Marine Mammal Protection Act</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/science-data/research-surveys">Research Surveys</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/population-assessments/marine-mammals">Population Assessments</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/marine-mammal-protection/marine-mammal-take-reduction-plans-and-teams">Take Reduction Plans</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/marine-life-distress">Marine Life in Distress</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/report">Report a Stranded or Injured Marine Animal</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/bycatch">Bycatch</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/science-data/ocean-noise">Ocean Acoustics/Noise</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/marine-mammal-protection/marine-mammal-unusual-mortality-events">Unusual Mortality Events</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/insight/understanding-vessel-strikes">Vessel Strikes</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Related Topics</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/marine-life-viewing-guidelines">Marine Life Viewing Guidelines</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/enforcement">Enforcement</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/funding-opportunities">Funding Opportunities</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/international-affairs/international-cooperation-on-key-issues">International Cooperation</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/permits-and-forms#protected-resources">Permits &amp; Authorizations</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/rules-and-regulations#protected-resources">Regulations &amp; Actions</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/offshore-wind-energy">Offshore Wind Energy</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/science-and-data">Science &amp; Data</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+                         
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >Environment</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-4">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/ecosystems">Ecosystems</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/ecosystems/u.s.-regional-ecosystems">U.S. Regional Ecosystems </a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/ecosystems/ecosystem-based-fishery-management">Management</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/ecosystems/science">Science</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/habitat-conservation">Habitat Conservation</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/habitat-conservation/how-we-restore">Habitat Restoration</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/habitat-conservation/how-we-protect">Habitat Protection</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/habitat-conservation/types-of-habitat">Types of Habitat</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/habitat-conservation/habitat-conservation-in-the-regions">Habitat by Region</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/habitat-conservation/science">Science</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/consultations/habitat-consultations">Consultations</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/climate-change">Climate Change</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/climate-change/understanding-the-impacts">Understanding the Impacts</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/climate-change/responding-to-change">Responding to Change</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries">Climate, Ecosystems &amp; Fisheries Initiative</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/climate-change/regional-activities">Regional Activities</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/offshore-wind-energy">Offshore Wind Energy</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+                         
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >Regions</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-5">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/regions">Our Regions</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/region/alaska">Alaska</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/region/new-england-mid-atlantic">New England/ Mid-Atlantic</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/region/pacific-islands">Pacific Islands</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/region/southeast">Southeast</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/region/west-coast">West Coast</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Contact Us</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/contact-directory/regional-offices">Regional Offices</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/contact-directory/science-centers">Science Centers</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+                         
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >Resources &amp; Services</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-6">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Rules &amp; Regulations</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/rules-and-regulations#fisheries">Fisheries Rules &amp; Regs</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/rules-and-announcements/notices-and-rules">Fisheries Management Info</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/rules-and-regulations#protected-resources">Protected Resources Regs &amp; Actions</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Permits</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/permits-and-forms">Fishing &amp; Seafood</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/permits-and-forms#protected-resources">Protected Resources</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/fishing-and-seafood-permits?fishing_permits%5B1000008636%5D=1000008636">International &amp; Trade</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/funding-opportunities">Funding &amp; Financial Services</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/funding-opportunities">Funding Opportunities</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/funding-opportunities#financial-services">Financial Services</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/grant/john-h-prescott-marine-mammal-rescue-assistance-grant-program">Prescott Grants</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/grant/saltonstall-kennedy-grant-program">Saltonstall-Kennedy Grants</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/grant/coastal-and-marine-habitat-restoration-grants">Habitat Restoration Grants</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/consultations">Consultations</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/consultations/habitat-consultations">Habitat</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/consultations/endangered-species-act-consultations">Endangered Species</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/consultations/tribal-consultations">Tribal</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/science-and-data">Science &amp; Data</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/research">Research</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/surveys">Surveys</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/data">Data</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/maps">Maps &amp; GIS</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/resources/all-publications">Publications</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/peer-reviewed-research">Published Research</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/key-reports">Key Reports</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/documents">Documents</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/publication-databases">Publication Databases</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/outreach-materials">Outreach Materials</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/laws-policies">Laws &amp; Policies</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/magnuson-stevens-act">Magnuson-Stevens Act</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/endangered-species-act">Endangered Species Act</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/marine-mammal-protection-act">Marine Mammal Protection Act</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/laws-policies/policies">Policies</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/outreach-and-education">Outreach &amp; Education</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/for-educators">For Educators</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/for-students">For Students</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/educational-materials">Educational Materials</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/outreach-materials">Outreach Materials</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/teacher-at-sea-program">Teacher at Sea</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/resources/outreach-events">Events</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+                         
+                                                <li class="main-menu__item main-menu__item--expanded">
+              <a class="link link--text main-menu__link" role="button" aria-haspopup="true" href="" >About Us</a>
+                             
+                  
+    <ul class="main-menu__items main-menu__container--mega main-menu--hidden" id="container-7">
+      <li class="hidden">
+        <ul class="main-menu--mega main-menu--1">
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">NOAA Fisheries</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/about-us">Our Mission</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/about-us#who-we-are">Who We Are</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/about-us#where-we-work">Where We Work</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/about-us#our-history">Our History</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">News &amp; Media</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/news-and-announcements/news">News &amp; Announcements</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/news-and-announcements/bulletins">Bulletins</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/news-and-announcements/multimedia">Multimedia</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/news-and-announcements/science-blog">Science Blogs</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/events">Events</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="https://videos.fisheries.noaa.gov/">Video Gallery</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/photo-gallery">Photo Gallery</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/careers-more">Careers &amp; More</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/careers-more/career-paths">Career Paths</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/careers-more/internships-and-more">Internships</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/careers-more/volunteering-and-citizen-science">Volunteering and Citizen Science</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/careers-more/diversity-and-inclusion">Diversity &amp; Inclusion</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/contact-us">Contact Us</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/contact-directory/national-program-offices">National Program Offices</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/contact-directory/regional-offices">Regional Offices</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/contact-directory/science-centers">Science Centers</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                      <a class="link--cta"  href="/topic/partners">Our Partners</a>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/partners">Regional Fishery Management Councils</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/partners/marine-fisheries-advisory-committee">Marine Fishery Advisory Committee</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/partners/federal-agencies">Federal Partners</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/partners/state-agencies">State Partners</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/partners/tribal-governments">Tribal Governments</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/topic/partners/non-government-organizations">Non-Government Organizations</a>
+              </li>
+                                    
+      </li>
+  
+                         
+                   
+              </ul>
+                  <li class="main-menu__column--mega" >
+     <ul class="main-menu--mega main-menu--2">
+                     <span class="main-menu__title">Inflation Reduction Act</span>
+                <br>
+        <div class="bar" ></div>
+                       
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/feature-story/inflation-reduction-act-historic-investment-americas-climate-resilience">About the Investment</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/climate/helping-america-prepare-and-respond-climate-change-under-inflation-reduction-act">Priority Areas</a>
+              </li>
+                                                 
+                                                    <li class="main-menu__item">
+                <a class="link link--text main-menu__link" href="/national/habitat-conservation/habitat-restoration-under-bipartisan-infrastructure-law-and-inflation-reduction-act">Habitat Restoration</a>
+              </li>
+                                    
+      </li>
+  
+            
+            </ul>
+        </li>
+      </ul>
+  
+            
+      </ul>    </nav>
+  
+    </div>
+  </div>
+
+  <div class="site-header__bottom hidden-lg hidden-md">
+      
+  
+  <nav class="mobile-menu">
+    <ul class="mobile-menu__level" data-level="1" aria-expanded="false">
+      <form id="input-search-form_header-search-mobile" class="input-search" action="https://www.fisheries.noaa.gov/search" method="GET">
+  
+  <label for="header-search-mobile" class="sr-only">Search NOAA Fisheries</label>
+  <input type="search" id="header-search-mobile" name="oq" placeholder="Search NOAA Fisheries">
+
+      <button type="submit" class="fa fa-search input-search__button"><span class="sr-only">Search</span></button>
+  </form>
+
+                
+  <ul class="mobile-menu__items">
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >Find A Species</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">Find A Species</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/find-species">Find a Species</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/dolphins-porpoises" title="Dolphins &amp; Porpoises">Dolphins &amp; Porpoises</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/fish-sharks" title="Fish &amp; Sharks">Fish &amp; Sharks</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/highly-migratory-species" title="Highly Migratory Species">Highly Migratory Species</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/invertebrates" title="Invertebrates">Invertebrates</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/sea-turtles" title="Sea Turtles">Sea Turtles</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/seals-sea-lions" title="Seals &amp; Sea Lions">Seals &amp; Sea Lions</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/whales" title="Whales">Whales</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Protected Species</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/species-directory/threatened-endangered" title="All Threatened &amp; Endangered Species">All Threatened &amp; Endangered Species</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/species-directory/marine-mammals" title="Marine Mammals">Marine Mammals</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Species By Region</span>
+                   
+                    <li class="mobile-menu__item mobile-menu__item--second mobile-menu__item--active-trail">
+          <a class="mobile-menu__link link link--text" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001106&amp;items_per_page=25" title="Alaska">Alaska</a>
+            
+      
+              </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001111&amp;items_per_page=25" title="New England/Mid-Atlantic">New England/Mid-Atlantic</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001116&amp;items_per_page=25" title="Pacific Islands">Pacific Islands</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001121&amp;items_per_page=25" title="Southeast">Southeast</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/species-directory?oq=&amp;field_species_categories_vocab=All&amp;field_region_vocab=1000001126&amp;items_per_page=25" title="West Coast">West Coast</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Helpful Resources</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/marine-life-viewing-guidelines#guidelines-&amp;-distances" title="Marine Life Viewing Guidelines">Marine Life Viewing Guidelines</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/marine-life-distress" title="Marine Life in Distress">Marine Life in Distress</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/report" title="Report a Stranded or Injured Marine Animal">Report a Stranded or Injured Marine Animal</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/endangered-species-conservation/species-in-the-spotlight" title="Species in the Spotlight">Species in the Spotlight</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >Fishing &amp; Seafood</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">Fishing &amp; Seafood</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/sustainable-fisheries">Sustainable Fisheries</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/bycatch" title="Bycatch">Bycatch</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/laws-and-policies/catch-shares" title="Catch Shares">Catch Shares</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/fishery-observers" title="Fishery Observers">Fishery Observers</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/international-affairs/iuu-fishing" title="Illegal, Unregulated, Unreported Fishing">Illegal, Unregulated, Unreported Fishing</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/magnuson-stevens-act" title="Magnuson-Stevens Act">Magnuson-Stevens Act</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/science-data/research-surveys" title="Research Surveys">Research Surveys</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/population-assessments" title="Population Assessments">Population Assessments</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/resources-fishing">Resources for Fishing</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/resources-fishing/commercial-fishing" title="Commercial Fishing">Commercial Fishing</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/resources-fishing/recreational-fishing" title="Recreational Fishing">Recreational Fishing</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/resources-fishing/subsistence-fishing" title="Subsistence Fishing">Subsistence Fishing</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/rules-and-announcements/notices-and-rules" title="Fishery Management Info">Fishery Management Info</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/permits-and-forms" title="Permits &amp; Forms">Permits &amp; Forms</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/rules-and-regulations" title="Rules &amp; Regulations by Region">Rules &amp; Regulations by Region</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/sustainable-seafood">Sustainable Seafood</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/sustainable-seafood/seafood-profiles" title="Seafood Profiles">Seafood Profiles</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/aquaculture" title="Aquaculture">Aquaculture</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/seafood-commerce-and-trade" title="Commerce &amp; Trade">Commerce &amp; Trade</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/seafood-commerce-and-trade/seafood-inspection" title="Seafood Inspection">Seafood Inspection</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Related Topics</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/atlantic-highly-migratory-species" title="Atlantic Highly Migratory Species ">Atlantic Highly Migratory Species </a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/offshore-wind-energy" title="Offshore Wind Energy">Offshore Wind Energy</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/sustainable-fisheries/national-cooperative-research-program" title="Cooperative Research">Cooperative Research</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/enforcement" title="Enforcement">Enforcement</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/funding-opportunities#financial-services" title="Financial Services">Financial Services</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/international-affairs" title="International Affairs">International Affairs</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/science-and-data" title="Science &amp; Data">Science &amp; Data</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/socioeconomics" title="Socioeconomics">Socioeconomics</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >Protecting Marine Life</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">Protecting Marine Life</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/endangered-species-conservation">Endangered Species Conservation</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/endangered-species-conservation/listing-species-under-endangered-species-act" title="Listing Species Under ESA">Listing Species Under ESA</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/endangered-species-conservation/critical-habitat" title="Critical Habitat">Critical Habitat</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/consultations/endangered-species-act-consultations" title="Consultations">Consultations</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/endangered-species-conservation/recovery-species-under-endangered-species-act" title="Species Recovery">Species Recovery</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/science-data/research-surveys" title="Research Surveys">Research Surveys</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/endangered-species-conservation/species-in-the-spotlight" title="Species in the Spotlight">Species in the Spotlight</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/endangered-species-act" title="Endangered Species Act">Endangered Species Act</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/marine-mammal-protection">Marine Mammal Protection</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/marine-life-distress/marine-mammal-health-and-stranding-response-program" title="Health &amp; Stranding Response">Health &amp; Stranding Response</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/marine-mammal-protection-act" title="Marine Mammal Protection Act">Marine Mammal Protection Act</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/science-data/research-surveys" title="Research Surveys">Research Surveys</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/population-assessments/marine-mammals" title="Population Assessments">Population Assessments</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/marine-mammal-protection/marine-mammal-take-reduction-plans-and-teams" title="Take Reduction Plans">Take Reduction Plans</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/marine-life-distress">Marine Life in Distress</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/report" title="Report a Stranded or Injured Marine Animal">Report a Stranded or Injured Marine Animal</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/bycatch" title="Bycatch">Bycatch</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/science-data/ocean-noise" title="Ocean Acoustics/Noise">Ocean Acoustics/Noise</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/marine-mammal-protection/marine-mammal-unusual-mortality-events" title="Unusual Mortality Events">Unusual Mortality Events</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/insight/understanding-vessel-strikes" title="Vessel Strikes">Vessel Strikes</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Related Topics</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/marine-life-viewing-guidelines" title="Marine Life Viewing Guidelines">Marine Life Viewing Guidelines</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/enforcement" title="Enforcement">Enforcement</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/funding-opportunities" title="Funding Opportunities">Funding Opportunities</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/international-affairs/international-cooperation-on-key-issues" title="International Cooperation">International Cooperation</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/permits-and-forms#protected-resources" title="Permits &amp; Authorizations">Permits &amp; Authorizations</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/rules-and-regulations#protected-resources" title="Regulations &amp; Actions">Regulations &amp; Actions</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/offshore-wind-energy" title="Offshore Wind Energy">Offshore Wind Energy</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/science-and-data" title="Science &amp; Data">Science &amp; Data</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >Environment</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">Environment</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/ecosystems">Ecosystems</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/ecosystems/u.s.-regional-ecosystems" title="U.S. Regional Ecosystems ">U.S. Regional Ecosystems </a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/ecosystems/ecosystem-based-fishery-management" title="Management">Management</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/ecosystems/science" title="Science">Science</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/habitat-conservation">Habitat Conservation</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/habitat-conservation/how-we-restore" title="Habitat Restoration">Habitat Restoration</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/habitat-conservation/how-we-protect" title="Habitat Protection">Habitat Protection</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/habitat-conservation/types-of-habitat" title="Types of Habitat">Types of Habitat</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/habitat-conservation/habitat-conservation-in-the-regions" title="Habitat by Region">Habitat by Region</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/habitat-conservation/science" title="Science">Science</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/consultations/habitat-consultations" title="Consultations">Consultations</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/climate-change">Climate Change</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/climate-change/understanding-the-impacts" title="Understanding the Impacts">Understanding the Impacts</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/climate-change/responding-to-change" title="Responding to Change">Responding to Change</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="https://www.fisheries.noaa.gov/topic/climate-change/climate,-ecosystems,-and-fisheries" title="Climate, Ecosystems &amp; Fisheries Initiative">Climate, Ecosystems &amp; Fisheries Initiative</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/climate-change/regional-activities" title="Regional Activities">Regional Activities</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/offshore-wind-energy" title="Offshore Wind Energy">Offshore Wind Energy</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >Regions</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">Regions</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/regions">Our Regions</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/region/alaska" title="Alaska">Alaska</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/region/new-england-mid-atlantic" title="New England/ Mid-Atlantic">New England/ Mid-Atlantic</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/region/pacific-islands" title="Pacific Islands">Pacific Islands</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/region/southeast" title="Southeast">Southeast</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/region/west-coast" title="West Coast">West Coast</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Contact Us</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/contact-directory/regional-offices" title="Regional Offices">Regional Offices</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/contact-directory/science-centers" title="Science Centers">Science Centers</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >Resources &amp; Services</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">Resources &amp; Services</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Rules &amp; Regulations</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/rules-and-regulations#fisheries" title="Fisheries Rules &amp; Regs">Fisheries Rules &amp; Regs</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/rules-and-announcements/notices-and-rules" title="Fisheries Management Info">Fisheries Management Info</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/rules-and-regulations#protected-resources" title="Protected Resources Regs &amp; Actions">Protected Resources Regs &amp; Actions</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Permits</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/permits-and-forms" title="Fishing &amp; Seafood">Fishing &amp; Seafood</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/permits-and-forms#protected-resources" title="Protected Resources">Protected Resources</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/fishing-and-seafood-permits?fishing_permits%5B1000008636%5D=1000008636" title="International &amp; Trade">International &amp; Trade</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/funding-opportunities">Funding &amp; Financial Services</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/funding-opportunities" title="Funding Opportunities">Funding Opportunities</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/funding-opportunities#financial-services" title="Financial Services">Financial Services</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/grant/john-h-prescott-marine-mammal-rescue-assistance-grant-program" title="Prescott Grants">Prescott Grants</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/grant/saltonstall-kennedy-grant-program" title="Saltonstall-Kennedy Grants">Saltonstall-Kennedy Grants</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/grant/coastal-and-marine-habitat-restoration-grants" title="Habitat Restoration Grants">Habitat Restoration Grants</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/consultations">Consultations</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/consultations/habitat-consultations" title="Habitat">Habitat</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/consultations/endangered-species-act-consultations" title="Endangered Species">Endangered Species</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/consultations/tribal-consultations" title="Tribal">Tribal</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/science-and-data">Science &amp; Data</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/research" title="Research">Research</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/surveys" title="Surveys">Surveys</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/data" title="Data">Data</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/maps" title="Maps &amp; GIS">Maps &amp; GIS</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/resources/all-publications">Publications</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/peer-reviewed-research" title="Published Research">Published Research</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/key-reports" title="Key Reports">Key Reports</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/documents" title="Documents">Documents</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/publication-databases" title="Publication Databases">Publication Databases</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/outreach-materials" title="Outreach Materials">Outreach Materials</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/laws-policies">Laws &amp; Policies</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/magnuson-stevens-act" title="Magnuson-Stevens Act">Magnuson-Stevens Act</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/endangered-species-act" title="Endangered Species Act">Endangered Species Act</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/marine-mammal-protection-act" title="Marine Mammal Protection Act">Marine Mammal Protection Act</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/laws-policies/policies" title="Policies">Policies</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/outreach-and-education">Outreach &amp; Education</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/for-educators" title="For Educators">For Educators</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/for-students" title="For Students">For Students</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/educational-materials" title="Educational Materials">Educational Materials</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/outreach-materials" title="Outreach Materials">Outreach Materials</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/teacher-at-sea-program" title="Teacher at Sea">Teacher at Sea</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/resources/outreach-events" title="Events">Events</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+                  <li class="mobile-menu__item mobile-menu__item--first mobile-menu__item--expanded">
+          <a class="mobile-menu__link link link--text" href="#" >About Us</a>
+      
+      
+              <ul class="mobile-menu__level" data-level="2" aria-expanded="false">
+          <div class="mobile-menu__back">
+            <a class="link link--breadcrumb" href="#" role="button">Back</a>
+          </div>
+          <div class="mobile-menu__explore">
+            <span class="link link-cta">About Us</span>
+          </div>
+            
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">NOAA Fisheries</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/about-us" title="Our Mission">Our Mission</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/about-us#who-we-are" title="Who We Are">Who We Are</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/about-us#where-we-work" title="Where We Work">Where We Work</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/about-us#our-history" title="Our History">Our History</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">News &amp; Media</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/news-and-announcements/news" title="News &amp; Announcements">News &amp; Announcements</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/news-and-announcements/bulletins" title="Bulletins">Bulletins</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/news-and-announcements/multimedia" title="Multimedia">Multimedia</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/news-and-announcements/science-blog" title="Science Blogs">Science Blogs</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/events" title="Events">Events</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="https://videos.fisheries.noaa.gov/" title="Video Gallery">Video Gallery</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/photo-gallery" title="Photo Gallery">Photo Gallery</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/careers-more">Careers &amp; More</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/careers-more/career-paths" title="Career Paths">Career Paths</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/careers-more/internships-and-more" title="Internships">Internships</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/careers-more/volunteering-and-citizen-science" title="Volunteering and Citizen Science">Volunteering and Citizen Science</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/careers-more/diversity-and-inclusion" title="Diversity &amp; Inclusion">Diversity &amp; Inclusion</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/contact-us">Contact Us</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/contact-directory/national-program-offices" title="National Program Offices">National Program Offices</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/contact-directory/regional-offices" title="Regional Offices">Regional Offices</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/contact-directory/science-centers" title="Science Centers">Science Centers</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                    <a class="link link--cta" href="/topic/partners">Our Partners</a>
+                  
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/partners" title="Regional Fishery Management Councils">Regional Fishery Management Councils</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/partners/marine-fisheries-advisory-committee" title="Marine Fishery Advisory Committee">Marine Fishery Advisory Committee</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/partners/federal-agencies" title="Federal Partners">Federal Partners</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/partners/state-agencies" title="State Partners">State Partners</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/partners/tribal-governments" title="Tribal Governments">Tribal Governments</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/topic/partners/non-government-organizations" title="Non-Government Organizations">Non-Government Organizations</a>
+                      </li>
+  
+      </ul>
+        </li>
+            <ul class="mobile-menu__level list--arrow" data-level="3" aria-expanded="false">
+                  <span class="mobile-menu__title">Inflation Reduction Act</span>
+                   
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/feature-story/inflation-reduction-act-historic-investment-americas-climate-resilience" title="About the Investment">About the Investment</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/climate/helping-america-prepare-and-respond-climate-change-under-inflation-reduction-act" title="Priority Areas">Priority Areas</a>
+                      </li>
+                              <li class="mobile-menu__item mobile-menu__item--second">
+            <a class="mobile-menu__link link link--text" href="/national/habitat-conservation/habitat-restoration-under-bipartisan-infrastructure-law-and-inflation-reduction-act" title="Habitat Restoration">Habitat Restoration</a>
+                      </li>
+  
+      </ul>
+        </li>
+  
+        </ul>
+      
+            </li>
+      </ul>
+
+          </ul>
+  </nav>
+
+  </div>
+</header>
+
+  </nav>
+
+  </div>
+
+</header>
+
+  <main class="main-container container js-quickedit-main-content" id="main-content" tabindex="-1">
+    <div class="row">
+
+            
+                  <section class="col-sm-12">
+
+                
+                
+                            <div class="region region-content">
+    <div data-drupal-messages-fallback class="hidden"></div>  
+<div class="views-element-container">
+    
+
+
+<div class="species-directory-v2">
+  <div class="species-directory__page-title">
+    <h1>Species Directory</h1>
+  </div>
+
+  <div class="species-directory__tabs">
+    <nav class="sub-nav">
+            
+            
+                                        <a href="/species-directory" class="sub-nav__link link link--subnav sub-nav__link--active">All Species</a>
+
+                  
+      
+                                        <a href="/species-directory/threatened-endangered" class="sub-nav__link link link--subnav">ESA Threatened &amp; Endangered</a>
+
+                  
+      
+                                        <a href="/species-directory/marine-mammals" class="sub-nav__link link link--subnav">Marine Mammals</a>
+
+                  
+      
+                                        <a href="/species-directory/sustainable-seafood" class="sub-nav__link link link--subnav">Sustainable Seafood</a>
+
+                  
+      
+    </nav>
+  </div>
+  
+  <h2>All Species</h2>
+
+    
+  
+    
+  <div class="species-directory__form">
+    <form  action="/species-directory" method="get">
+
+      <div class="species-directory__form-section--top sort-filter">
+        
+        <div class="form__container form__select">
+          <div class="form__container form__textfield">
+      <label for="edit-oq" class="control-label">Species Name</label>
+        <input data-drupal-selector="edit-oq" class="form-text form-control" type="text" id="edit-oq" name="oq" value="Thymophylla tephroleuca" size="30" maxlength="128" />
+        </div>
+
+        </div>
+
+        
+        <div class="form__container form__select">
+          <div class="form__container form__select">
+      <label for="edit-field-species-categories-vocab" class="control-label">Species Category</label>
+        <div class="select-wrapper"><select data-drupal-selector="edit-field-species-categories-vocab" class="form-select form-control" id="edit-field-species-categories-vocab" name="field_species_categories_vocab"><option
+            value="All" selected="selected">All</option><option
+            value="1000000069">Corals &amp; Invertebrates</option><option
+            value="1000000066">Dolphins &amp; Porpoises</option><option
+            value="1000000031">Fish &amp; Sharks</option><option
+            value="1000000045">Sea Turtles</option><option
+            value="53">Seals &amp; Sea Lions</option><option
+            value="54">Whales</option><option
+            value="1000005176">Other</option></select></div>
+        </div>
+
+        </div>
+        
+        
+          <div class="form__container form__select">
+            <div class="form__container form__select">
+      <label for="edit-field-region-vocab" class="control-label">Region</label>
+        <div class="select-wrapper"><select data-drupal-selector="edit-field-region-vocab" class="form-select form-control" id="edit-field-region-vocab" name="field_region_vocab"><option
+            value="All" selected="selected">All</option><option
+            value="1000001106">Alaska</option><option
+            value="1000001111">New England/Mid-Atlantic</option><option
+            value="1000001116">Pacific Islands</option><option
+            value="1000001121">Southeast</option><option
+            value="1000001126">West Coast</option><option
+            value="1000008761">Foreign</option></select></div>
+        </div>
+
+          </div>
+        
+        <button type="submit" id="sd-btn-submit" class="button button--primary search-block__button button--full-width">
+          <span class="fa fa-search"></span>Search
+        </button>
+      </div>
+      
+      <div class="species-directory__form v2-sort-filter">
+        <div class="sort-filter">
+          <div class="bold-font">Display</div>
+          <div class="form__container form__select">
+      <label for="edit-items-per-page" class="control-label">Items per page</label>
+        <div class="select-wrapper"><select data-drupal-selector="edit-items-per-page" class="form-select form-control" id="edit-items-per-page" name="items_per_page"><option
+            value="10">10</option><option
+            value="25" selected="selected">25</option><option
+            value="50">50</option><option
+            value="100">100</option><option
+            value="350">350</option></select></div>
+        </div>
+
+        </div>
+        <a href="https://www.fisheries.noaa.gov/species-directory?oq=&field_species_categories_vocab=All&field_region_vocab=All&items_per_page=350" id="display-all-link">Display All</a>
+      </div>
+
+    </form>
+  </div>
+  <div class="species-directory tab-all">
+    
+    No species match your filter criteria. Please modify your filter selections.
+    
+<div>
+  </div>
+
+  </div>
+</div>
+<script>
+  $('#edit-items-per-page option:last').text('All');
+</script></div>
+
+
+  </div>
+
+              </section>
+
+                </div>
+  </main>
+
+      <footer>
+        <div class="region region-footer">
+    <nav aria-label="block-noaa-components-footer-menu" id="block-noaa-components-footer">
+      
+  
+ 
+  
+
+        
+
+<a href="#" id="scroll-to-top"><img src="/themes/custom/noaa_components/images/Scroll-To-Top_Icon@2x.png" alt="Scroll to Top Icon"></a>
+
+<div class="footer">
+  <div class="footer__top">
+    <div class="container">
+      <div class="footer__top-signup">
+        <div class="footer__top-image">
+          <img src="/themes/custom/noaa_components/images/Icon_Mail.png" alt="Sign Up Mail Button">
+        </div>
+        <div class="footer__top-text">
+          <div class="footer__top-text--heading">Sign up for news and announcements</div>
+          <div class="footer_top-text--subtext">Stay informed of all the latest regional news around NOAA Fisheries</div>
+        </div>
+        <div class="footer__top-button">
+            
+  <a class="button button--secondary button--nomargin-bottom" href="https://public.govdelivery.com/accounts/USNOAAFISHERIES/subscriber/new">Sign Up Now!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer__content">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="footer__main">
+            <div class="footer__main-content">
+                      <nav class="footer-menu">
+      <ul class="footer-menu__items row">
+                              <li class="footer-menu__item col-lg-3 col-sm-6 col-xs-12">
+                              <a class="footer-menu__title-link" href="/about-us" title="NOAA Fisheries">NOAA Fisheries</a>
+
+                <ul class="footer-menu__items list--arrow">
+                                      <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/about-us" title="About Us">About Us</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/topic/laws-policies" title="Laws &amp; Policies">Laws &amp; Policies</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/topic/sustainable-seafood" title="FishWatch">FishWatch</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="https://www.noaa.gov" title="NOAA">NOAA</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="https://www.commerce.gov" title="Department of Commerce">Department of Commerce</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/site-index" title="Site Index">Site Index</a>
+        </li>
+            
+                </ul>
+                          </li>
+                                        <li class="footer-menu__item col-lg-3 col-sm-6 col-xs-12">
+                              <a class="footer-menu__title-link" href="/topic/resources-fishing" title="For Fishermen">For Fishermen</a>
+
+                <ul class="footer-menu__items list--arrow">
+                                      <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/rules-and-regulations" title="Rules &amp; Regulations">Rules &amp; Regulations</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/permits-and-forms" title="Permits &amp; Forms">Permits &amp; Forms</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/topic/commercial-fishing" title="Commercial Fishing">Commercial Fishing</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/insight/recreational-fishing" title="Recreational Fishing">Recreational Fishing</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/topic/fishery-observers" title="Fishery Observers">Fishery Observers</a>
+        </li>
+            
+                </ul>
+                          </li>
+                                        <li class="footer-menu__item col-lg-3 col-sm-6 col-xs-12">
+                                                <a class="footer-menu__title-link" href="/resources/research" title="For Researchers">For Researchers</a>
+
+                  <ul class="footer-menu__items list--arrow">
+                                        <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/resources/peer-reviewed-research" title="Published Research">Published Research</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/science-and-data" title="Science &amp; Data">Science &amp; Data</a>
+        </li>
+            
+                  </ul>
+                                          </li>
+                                        <li class="footer-menu__item col-lg-3 col-sm-6 col-xs-12">
+                              <a class="footer-menu__title-link" href="/contact-us" title="Contact Us">Contact Us</a>
+
+                <ul class="footer-menu__items list--arrow">
+                                      <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/contact-us" title="Contact Us">Contact Us</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/contact-directory/media-directory" title="Media Inquiries">Media Inquiries</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/national/enforcement/report-violation" title="Report a Violation">Report a Violation</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="/report" title="Report a Stranded or Injured Marine Animal">Report a Stranded or Injured Marine Animal</a>
+        </li>
+                              <li class="footer-menu__item">
+          <a class="footer-menu__link" href="https://nsd.rdc.noaa.gov/" title="NOAA Staff Directory">NOAA Staff Directory</a>
+        </li>
+            
+                </ul>
+                          </li>
+                        </ul>
+    </nav>
+  
+            </div>
+            <div class="footer__social">
+              <div class="footer__social-title">Follow Us</div>
+              <div class="footer__social-links">
+                                  <div class="footer__social-links-item">
+                    <a href="https://twitter.com/@NOAAFisheries" class="footer__social-links-link"><span class="fab fa-twitter"></span><span class="sr-only">Twitter</span></a>
+                  </div>
+                                  <div class="footer__social-links-item">
+                    <a href="https://www.facebook.com/NOAAFisheries" class="footer__social-links-link"><span class="fab fa-facebook-f"></span><span class="sr-only">Facebook</span></a>
+                  </div>
+                                  <div class="footer__social-links-item">
+                    <a href="https://www.instagram.com/noaafisheries" class="footer__social-links-link"><span class="fab fa-instagram"></span><span class="sr-only">Instagram</span></a>
+                  </div>
+                                  <div class="footer__social-links-item">
+                    <a href="https://www.youtube.com/user/usnoaafisheriesgov" class="footer__social-links-link"><span class="fab fa-youtube"></span><span class="sr-only">Youtube</span></a>
+                  </div>
+                              </div>
+              <div class="footer__social-subtitle">
+                <a href="/site-index" class ="footer__social-subtitle-link">Can&#039;t Find What You Need?</a><br>
+                <a href="/video/new-our-website-watch" class ="footer__social-subtitle-link">Tour Our Site</a>
+              </div>
+                <a class="button button--primary footer__social-button" href="https://eex-survey.fr011.ttecfed.com/se/5C342AAB1F117226">
+        How are we doing? Send us your feedback
+  </a>
+            </div>
+          </div>
+
+          <div class="footer__bottom">
+            <div class="footer__logo">
+              <a href="/"><img src="/themes/custom/noaa_components/images/noaa_logo_white.png" class="footer__logo-image" alt="NOAA Logo" /></a>
+              <div class="footer__logo-text">Science. Service. Stewardship.</div>
+            </div>
+            <div class="footer__links">
+                              <div class="footer__links-item"><a href="http://www.noaa.gov/accessibility" title="Accessibility" class="footer__links-item-link">Accessibility</a></div>  |  
+                              <div class="footer__links-item"><a href="/about/office-equal-employment-opportunity" title="EEO" class="footer__links-item-link">EEO</a></div>  |  
+                              <div class="footer__links-item"><a href="https://www.noaa.gov/foia" title="FOIA" class="footer__links-item-link">FOIA</a></div>  |  
+                              <div class="footer__links-item"><a href="https://www.noaa.gov/information-quality" title="Information Quality" class="footer__links-item-link">Information Quality</a></div>  |  
+                              <div class="footer__links-item"><a href="/website-policies-and-disclaimers" title="Policies &amp; Disclaimer" class="footer__links-item-link">Policies &amp; Disclaimer</a></div>  |  
+                              <div class="footer__links-item"><a href="/privacy-policy" title="Privacy Policy" class="footer__links-item-link">Privacy Policy</a></div>  |  
+                              <div class="footer__links-item"><a href="https://www.usa.gov" title="USA.gov" class="footer__links-item-link">USA.gov</a></div>
+                          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </nav>
+
+  </div>
+
+    </footer>
+  
+  </div>
+
+    
+    <script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","scriptPath":null,"pathPrefix":"","currentPath":"species-directory","currentPathIsAdmin":false,"isFront":false,"currentLanguage":"en","currentQuery":{"field_region_vocab":"All","field_species_categories_vocab":"All","items_per_page":"25","oq":"Thymophylla tephroleuca"}},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_classes":false,"allowlist_classes":"","blocklist_classes":"","include_environment":false,"environment_id":"","environment_token":""},"tagIds":["GTM-M67WBF"]},"gtag":{"tagId":"","otherIds":[],"events":[{"name":"search","data":{"search_term":"\u0022thymophylla tephroleuca\u0022"}}],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"addtoany\/addtoany.front,bootstrap\/popover,bootstrap\/theme,bootstrap\/tooltip,extlink\/drupal.extlink,google_tag\/gtag,google_tag\/gtag.ajax,google_tag\/gtm,lazy\/lazy,noaa_components\/bootstrap-scripts,noaa_components\/core,noaa_components\/outdated-browser,noaa_components\/siteimprove,noaa_extras\/akr-openwebpagefromquery,system\/base,views\/views.module","theme":"noaa_components","theme_token":null},"ajaxTrustedUrl":[],"lazy":{"lazysizes":{"lazyClass":"dam-image","loadedClass":"lazyloaded","loadingClass":"lazyloading","preloadClass":"lazypreload","errorClass":"lazyerror","autosizesClass":"lazyautosizes","srcAttr":"data-src","srcsetAttr":"data-srcset","sizesAttr":"data-sizes","minSize":40,"customMedia":[],"init":true,"expFactor":1.5,"hFac":0.80000000000000004,"loadMode":2,"loadHidden":true,"ricTimeout":0,"throttleDelay":125,"plugins":[]},"placeholderSrc":"","preferNative":false,"minified":true,"libraryPath":"\/themes\/custom\/noaa_components\/scripts\/lazyload"},"data":{"extlink":{"extTarget":false,"extTargetNoOverride":false,"extNofollow":false,"extNoreferrer":false,"extFollowNoOverride":false,"extClass":"ext","extLabel":"(link is external)","extImgClass":false,"extSubdomains":false,"extExclude":"(\\.gov)","extInclude":"","extCssExclude":".site-header__top-bar-links--left, .site-header__top-bar-links--right","extCssExplicit":"","extAlert":false,"extAlertText":"This link will take you to an external web site. We are not responsible for their content.","mailtoClass":"0","mailtoLabel":"(link sends email)","extUseFontAwesome":false,"extIconPlacement":"append","extFaLinkClasses":"fa fa-external-link","extFaMailtoClasses":"fa fa-envelope-o","whitelistedDomains":["fisheriesmedia.s3.amazonaws.com"]}},"bootstrap":{"forms_has_error_value_toggle":1,"modal_animation":1,"modal_backdrop":"true","modal_focus_input":1,"modal_keyboard":1,"modal_select_text":1,"modal_show":1,"modal_size":"","popover_enabled":1,"popover_animation":1,"popover_auto_close":1,"popover_container":"body","popover_content":"","popover_delay":"0","popover_html":0,"popover_placement":"right","popover_selector":"","popover_title":"","popover_trigger":"click","tooltip_enabled":1,"tooltip_animation":1,"tooltip_container":"body","tooltip_delay":"0","tooltip_html":0,"tooltip_placement":"auto left","tooltip_selector":"","tooltip_trigger":"hover"},"user":{"uid":0,"permissionsHash":"601f1d633033e0d645066bc6203ac4535203f7d3f1f4c3b7b62c83cdf846eb17"}}</script>
+<script src="/core/assets/vendor/jquery/jquery.min.js?v=3.7.0"></script>
+<script src="/core/assets/vendor/underscore/underscore-min.js?v=1.13.6"></script>
+<script src="/core/assets/vendor/once/once.min.js?v=1.0.1"></script>
+<script src="/core/misc/drupalSettingsLoader.js?v=10.1.1"></script>
+<script src="/core/misc/drupal.js?v=10.1.1"></script>
+<script src="/core/misc/drupal.init.js?v=10.1.1"></script>
+<script src="/core/assets/vendor/tabbable/index.umd.min.js?v=6.1.2"></script>
+<script src="https://static.addtoany.com/menu/page.js" async></script>
+<script src="/modules/contrib/addtoany/js/addtoany.js?v=10.1.1"></script>
+<script src="/modules/contrib/lazy/js/lazy.js?v=10.1.1"></script>
+<script src="/modules/custom/noaa_extras/js/openwebpagefromquery.js?s1x3ue"></script>
+<script src="/themes/contrib/bootstrap/js/drupal.bootstrap.js?s1x3ue"></script>
+<script src="/themes/contrib/bootstrap/js/attributes.js?s1x3ue"></script>
+<script src="/themes/contrib/bootstrap/js/theme.js?s1x3ue"></script>
+<script src="/core/misc/debounce.js?v=10.1.1"></script>
+<script src="/themes/custom/noaa_components/dest/script.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/scripts/misc.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/node_modules/bootstrap-sass/assets/javascripts/bootstrap/affix.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/node_modules/bootstrap-sass/assets/javascripts/bootstrap/collapse.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/node_modules/bootstrap-sass/assets/javascripts/bootstrap/modal.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/node_modules/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/node_modules/bootstrap-sass/assets/javascripts/bootstrap/transition.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/scripts/outdated-browser/outdated-browser.js?s1x3ue"></script>
+<script src="/themes/custom/noaa_components/scripts/siteimprove/siteimprove.js?s1x3ue"></script>
+<script src="/modules/contrib/extlink/extlink.js?v=10.1.1"></script>
+<script src="/modules/contrib/google_tag/js/gtm.js?s1x3ue"></script>
+<script src="/modules/contrib/google_tag/js/gtag.js?s1x3ue"></script>
+<script src="/core/misc/progress.js?v=10.1.1"></script>
+<script src="/themes/contrib/bootstrap/js/misc/progress.js?s1x3ue"></script>
+<script src="/core/assets/vendor/loadjs/loadjs.min.js?v=4.2.0"></script>
+<script src="/core/misc/announce.js?v=10.1.1"></script>
+<script src="/core/misc/message.js?v=10.1.1"></script>
+<script src="/themes/contrib/bootstrap/js/misc/message.js?s1x3ue"></script>
+<script src="/core/misc/ajax.js?v=10.1.1"></script>
+<script src="/themes/contrib/bootstrap/js/misc/ajax.js?s1x3ue"></script>
+<script src="/modules/contrib/google_tag/js/gtag.ajax.js?s1x3ue"></script>
+<script src="/themes/contrib/bootstrap/js/popover.js?s1x3ue"></script>
+<script src="/themes/contrib/bootstrap/js/tooltip.js?s1x3ue"></script>
+
+  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"249ea9cb86","applicationID":"659846010","transactionName":"ZwFWZUBQV0tZVxEIDl5LdVJGWFZWF3AXFBFRCGhHW1ROS2RmChQVWQpTbWRYXE9oVQIEIl8KQENdXVVdShlbCQBeAFhU","queueTime":2,"applicationTime":257,"atts":"S0ZVEwhKREU=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
