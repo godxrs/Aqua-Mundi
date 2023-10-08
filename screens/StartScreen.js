@@ -11,19 +11,17 @@ export default function StartScreen({ navigation }) {
 
     const getPermission = async () => {
         const { status } = await Location.requestForegroundPermissionsAsync()
-        if (status !== 'granted') {
-            console.log('Permission not granted')
-            return
-        }
         const location = await Location.getCurrentPositionAsync()
         setLocation(location)
+
+        if (status === 'granted') {
+            navigation.navigate("Feed", { location: location });
+        }
     }
 
     const navFeed = async () => {
-        if(location != undefined){
-            navigation.dispatch(
-                StackActions.replace("Feed")
-            )
+        if (location != undefined) {
+            navigation.navigate("Feed", { location: location });
         } else {
             getPermission()
         }
