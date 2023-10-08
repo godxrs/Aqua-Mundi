@@ -1,17 +1,22 @@
 import StartScreen from './screens/StartScreen';
 import FeedScreen from './screens/FeedScreen';
+import DetailsScreen from './screens/DetailsScreen';
 import { NavigationContainer } from '@react-navigation/native';
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createStackNavigator } from '@react-navigation/stack';
+import { SafeAreaView } from 'react-native-safe-area-context';
 
-const Stack = createNativeStackNavigator();
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <NavigationContainer>
-      <Stack.Navigator>
-        <Stack.Screen name="Start" component={StartScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="Feed" component={FeedScreen} options={{ headerShown: false }} />
-      </Stack.Navigator>
-    </NavigationContainer>
+    <SafeAreaView style={{ flex: 1 }}>
+      <NavigationContainer>
+        <Stack.Navigator>
+          <Stack.Screen name="Start" component={StartScreen} options={{ headerShown: false }} />
+          <Stack.Screen name="Feed" component={FeedScreen} options={{ headerShown: false }} />
+          <Stack.Screen name="Details" component={DetailsScreen} options={{ headerShown: false }} />
+        </Stack.Navigator>
+      </NavigationContainer>
+    </SafeAreaView>
   );
 }

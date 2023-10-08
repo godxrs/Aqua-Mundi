@@ -4,26 +4,23 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { Image } from 'expo-image';
 import * as Location from 'expo-location';
 import { useEffect, useState } from 'react';
-import { StackActions } from '@react-navigation/native';
 
 export default function StartScreen({ navigation }) {
     const [location, setLocation] = useState()
 
     const getPermission = async () => {
         const { status } = await Location.requestForegroundPermissionsAsync()
-        if (status !== 'granted') {
-            console.log('Permission not granted')
-            return
-        }
         const location = await Location.getCurrentPositionAsync()
         setLocation(location)
+
+        if (status === 'granted') {
+            navigation.push("Feed");
+        }
     }
 
     const navFeed = async () => {
-        if(location != undefined){
-            navigation.dispatch(
-                StackActions.replace("Feed")
-            )
+        if (location != undefined) {
+            navigation.push("Feed");
         } else {
             getPermission()
         }
@@ -39,12 +36,9 @@ export default function StartScreen({ navigation }) {
                 style={{ height: '100%', width: '100%' }}>
 
                 <View style={styles.inner_container}>
-                    <Text style={styles.text_lg}>App Name</Text>
+                    <Text style={styles.text_lg}>Aqua Mundi</Text>
                     <Text style={styles.text_md}>
-                        app slogan ,saying,
-                        blah  brief description,
-                        hello yes welcome?
-                        blahanything
+                        Using outerspcae technology to save our oceans.
                     </Text>
                     <TouchableOpacity onPress={() => navFeed()} style={{ display: 'flex', flexDirection: 'row', justifyContent: 'center', alignItems: 'center', gap: 30 }}>
                         <Text style={styles.text_md}>Get Started</Text>
