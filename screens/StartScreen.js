@@ -14,13 +14,21 @@ export default function StartScreen({ navigation }) {
         setLocation(location)
 
         if (status === 'granted') {
+<<<<<<< HEAD
             navigation.push("Feed");
+=======
+            navigation.navigate("Feed", { location: location });
+>>>>>>> c1083eb337838f0801a9c0706dfae866eda27a2c
         }
     }
 
     const navFeed = async () => {
         if (location != undefined) {
+<<<<<<< HEAD
             navigation.push("Feed");
+=======
+            navigation.navigate("Feed", { location: location });
+>>>>>>> c1083eb337838f0801a9c0706dfae866eda27a2c
         } else {
             getPermission()
         }
